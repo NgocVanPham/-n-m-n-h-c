@@ -19,7 +19,7 @@
     </thead>
     <tbody>
         <?php
-        $con = mysqli_connect('localhost', 'root', '', 'xemay');
+        $con = mysqli_connect('localhost', 'root', '', 'webbanxemay');
         mysqli_set_charset($con, 'utf8');
         $sql_tintuc = mysqli_query($con, "select * from tbl_tintuc");
         $i = 1;

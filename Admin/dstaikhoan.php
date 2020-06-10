@@ -14,7 +14,7 @@
         </thead>
         <tbody>
             <?php
-            $con = mysqli_connect('localhost', 'root', '', 'xemay');
+            $con = mysqli_connect('localhost', 'root', '', 'xewebbanxemaymay');
             mysqli_set_charset($con, 'utf8');
             $sql_table_member = "SELECT * FROM tbl_member order by ID ASC";
             $kq = mysqli_query($con, $sql_table_member);

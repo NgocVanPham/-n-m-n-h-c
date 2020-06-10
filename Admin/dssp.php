@@ -20,7 +20,7 @@
         </thead>
         <tbody>
             <?php
-        $con = mysqli_connect('localhost', 'root', '', 'xemay');
+        $con = mysqli_connect('localhost', 'root', '', 'webbanxemay');
         mysqli_set_charset($con, 'utf8');
         $sql_table_hsx = "SELECT * FROM tbl_dmsp order by MaSP DESC";
         $kq = mysqli_query($con, $sql_table_hsx);
