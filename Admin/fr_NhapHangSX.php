@@ -1,4 +1,4 @@
-<?php
+ <?php
 	require("../connect/connect.php");
 ?>
 <div class="row">

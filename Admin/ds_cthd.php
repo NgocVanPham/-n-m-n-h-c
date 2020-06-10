@@ -1,4 +1,4 @@
-<?php
+ <?php
     $con = mysqli_connect('localhost', 'root', '', 'webbanxemay');
     $mahd = $_GET['mahd'];
 		$result = mysqli_query($con, "select count(MaHD) as total from tbl_hoadonchitiet where MaHD = '$mahd'");

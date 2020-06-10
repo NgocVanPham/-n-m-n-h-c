@@ -1,4 +1,4 @@
-<div class="alert alert-primary mt-3 text-center" role="alert">
+ <div class="alert alert-primary mt-3 text-center" role="alert">
     <h3>DANH SÁCH HÃNG SẢN XUẤT</h3>
 </div>
 <div>
