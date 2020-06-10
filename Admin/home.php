@@ -4,7 +4,7 @@ require("../connect/connect.php");
 <div class="alert alert-primary mt-3" role="alert">
   <h3>SẢN PHẨM</h3>
 </div>
-<div class="row">
+ <div class="row">
     <div class="col-md-4 text-center">
         <div class="card text-white bg-primary mb-3 w-100" >
             <div class="card-header"><h4>TỔNG SẢN PHẨM</h4></div>
